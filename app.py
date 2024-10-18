@@ -62,7 +62,7 @@ def get_products():
             {
                 'id':product.id,
                 'name':product.name,
-                'stock':product.stock_level
+                'stock_available':product.stock_level
             }
         )
     return jsonify(allProducts), 200
